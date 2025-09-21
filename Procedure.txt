@@ -2,8 +2,8 @@ Procedure to clone a webpage :
 1) download kali linux or parrot os.
 2) create a file with extension .py, because it is a python file.
 3) open terminal at that location and type:  python colner.py .
-4) When we run it automatically creates a folder named cloned_folder for assets,js files,css files.
+4) When we run it automatically creates a folder named cloned_page for assets,js files,css files.
 5) cloner.py file  consists of HTML,CSS,JS languages for creating webpage looks like originally, also consists of PHP code to handle data that is submited in web page.
-6) when we want to run locally open cloned_folder and inside open terminal, there type :python3 -m http.server 8080   for running local server in parrot.
-7) Finally paste this : http://localhost:8080/index.php for opening that cloned webpage.
+6) when we want to run locally open cloned_folder and inside open terminal, there type :php -S localhost:8081 for running local PHP server in parrot.
+7) Finally paste this : php -S localhost:8081 for opening that cloned webpage.
 8) When we submit data it logs data and redirects to original webpage automatically.
