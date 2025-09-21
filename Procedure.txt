@@ -5,5 +5,5 @@ Procedure to clone a webpage :
 4) When we run it automatically creates a folder named cloned_page for assets,js files,css files.
 5) cloner.py file  consists of HTML,CSS,JS languages for creating webpage looks like originally, also consists of PHP code to handle data that is submited in web page.
 6) when we want to run locally open cloned_folder and inside open terminal, there type :php -S localhost:8081 for running local PHP server in parrot.
-7) Finally paste this : php -S localhost:8081 for opening that cloned webpage.
+7) Finally paste this : http://localhost:8081/login_page_name for opening that cloned webpage.
 8) When we submit data it logs data and redirects to original webpage automatically.
